@@ -11,6 +11,8 @@ services:
       - redis-service
   redis-service:
     image: redis
+    volumes:
+      - data:/data # attach a volume (hostDirectory:containerDirectory)
     networks:
       - shared-network
 networks:
