@@ -1,0 +1,6 @@
+version: "3.7"
+services:
+  backend-service:
+    build: .         # where Dockerfile is located
+    ports:
+      - "4000:8080"  # port mapping (hostPort:containerPort)
