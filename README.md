@@ -1,6 +1,8 @@
 Hello,
 
-Switch to the branches for the demo codes
+This is a supplementary repository for the docker in a nutshell article. 
+
+Switch to the branches for the demo codes. The list of branches,
 - `demo/1-basic-spring-app`
 - `demo/2-docker-compose-basic`
 - `demo/3-multi-stage-dockerfile`
