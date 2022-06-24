@@ -17,3 +17,5 @@ services:
       - shared-network
 networks:
   shared-network: {}
+volumes:
+  data: {}
